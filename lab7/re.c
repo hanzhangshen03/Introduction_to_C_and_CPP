@@ -83,8 +83,6 @@ int re_match(Regexp *r, char *s, int i) {
   return -1;
 }
 
-
-
 void re_print(Regexp *r) { 
   if (r != NULL) { 
     switch (r->type) {
